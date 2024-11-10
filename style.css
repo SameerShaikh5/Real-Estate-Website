@@ -1234,13 +1234,9 @@ ul.feature-list {
     .detail-bar{
         top: 75%;
     }
-    
-
-}
-
-@media only screen and (max-width: 470px) {
     .view5 {
-        height: 78%;}
+        height: 78%;
+    }
     .view3{
         height: 17.5rem;
     }
@@ -1248,6 +1244,7 @@ ul.feature-list {
         width: 8rem;
     }
 }
+
 
 @media only screen and (max-width: 425px) {
     .view-container-1{
@@ -1283,7 +1280,8 @@ ul.feature-list {
         margin-right: 10px;
     }
     .unit{
-    width: 9rem;
+        width: 7rem;
+        height: 35px;
     }
     .num{
         font-size: 1.9rem;
