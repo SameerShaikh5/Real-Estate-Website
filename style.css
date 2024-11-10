@@ -1235,7 +1235,7 @@ ul.feature-list {
 
 @media only screen and (max-width: 425px) {
     .view-container-1{
-        height: 28rem;
+        height: 28.4rem;
     }
     .view2-img{
         width: 41rem;
@@ -1253,22 +1253,32 @@ ul.feature-list {
     }
     .view4{
         height: 56%;
-        margin: 11px 10px 5px 0;
+        margin: 13px 10px 5px 0;
 
     }
     .view5{
-        height: 56%;
+        height: 60%;
         margin: 5px 10px 5px 0;
     }
 
     .inquiry-container{
-        height: 39rem;
+        height: 37rem;
+        width: 39rem;
+        margin-right: 10px;
     }
-
+    .unit{
+    width: 9rem;
+    }
+    .num{
+        font-size: 1.9rem;
+    }
+    .feature-1{
+        font-size: 1.3rem;
+    }
 }
 
 
-@media only screen and (max-width: 355px) {
+@media only screen and (max-width: 395px) {
     html{
         font-size: 10px;
     }
@@ -1299,5 +1309,11 @@ ul.feature-list {
     }
     .searchpropertycontainer{
         width: 85%;
+    }
+    .inquiry-container{
+        height: 40rem;
+    }
+    .inquiry-submit{
+        padding: 8px 44px;
     }
 }
