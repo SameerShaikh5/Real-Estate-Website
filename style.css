@@ -1217,6 +1217,12 @@ ul.feature-list {
     }
 }
 
+@media only screen and (max-width: 642px) {
+    .info-text{
+        width: 15rem;
+    }
+}
+
 
 @media only screen and (max-width: 470px) {
     .property{
@@ -1232,6 +1238,16 @@ ul.feature-list {
 
 }
 
+@media only screen and (max-width: 470px) {
+    .view5 {
+        height: 78%;}
+    .view3{
+        height: 17.5rem;
+    }
+    .unit{
+        width: 8rem;
+    }
+}
 
 @media only screen and (max-width: 425px) {
     .view-container-1{
@@ -1315,5 +1331,12 @@ ul.feature-list {
     }
     .inquiry-submit{
         padding: 8px 44px;
+    }
+}
+
+
+@media only screen and (max-width: 322px) {
+    html{
+        font-size: 9px;
     }
 }
