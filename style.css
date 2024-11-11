@@ -920,7 +920,7 @@ footer {
 .overview-container ul {
     display: flex;
     margin-top: 1.5rem;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 .overview-container ul li {
@@ -973,10 +973,12 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
+    gap: 10px;
+
 }
 
 .address-boxes div {
-    width: 33rem;
+    width: 27rem;
 }
 
 .address-block {
@@ -1276,7 +1278,7 @@ ul.feature-list {
 
     .inquiry-container{
         height: 37rem;
-        width: 39rem;
+        width: 53rem;
         margin-right: 10px;
     }
     .unit{
@@ -1284,10 +1286,16 @@ ul.feature-list {
         height: 35px;
     }
     .num{
-        font-size: 1.9rem;
+        font-size: 1.3rem;
     }
     .feature-1{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+    .head-text{
+        font-size: 1.4rem;
+    }
+    .info-text{
+        width: 9rem;
     }
 }
 
@@ -1336,5 +1344,165 @@ ul.feature-list {
 @media only screen and (max-width: 322px) {
     html{
         font-size: 9px;
+    }
+}
+
+
+/* property.html responsive */
+
+@media only screen and (max-width: 1058px){
+    .address-boxes div{
+        width: 22rem;
+    }
+    .feature{
+        font-size: 1rem;
+    }
+    .detail{
+        font-size: 1.1rem;
+    }
+    .add-title{
+        font-size: 1.1rem;
+    }
+    .consultant-inquiry-form{
+        padding: 1rem;
+        width: 31%;
+    }
+    .feature-tick{
+        margin-right: 4px;
+    }
+    ul.feature-list{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .detail{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .detail-type{
+        font-size: 1rem;
+    }
+    .spacing-icons{
+        margin-right: 3px;
+        font-size: 1rem;
+    }
+    .overview-container ul{
+        gap: 1rem;
+    }
+    .address-boxes div{
+        width: 19rem;
+    }
+    .add-value{
+        font-size: 1rem;
+    }
+    .consultant-inquiry-form{
+        width: 35%;
+    }
+    .submit-inquiry-text {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 618px){
+    .overview-text{
+        font-size: 1.2rem;
+    }
+    .pro-title span{
+        font-size: 0.8rem;
+    }
+    .pro-price{
+        font-size: 1.2rem;
+    }
+    .pro-title{
+        font-size: 1.2rem;
+    }
+    .address-boxes {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .address-boxes div{
+        width: 100%;
+    }
+    .features-box{
+        gap: 10px;
+    }
+    .property-images-div{
+        width: 93%;
+    }
+    .overview-container ul{
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 509px){
+    .property-name-div{
+        width: 93%;
+    }
+    .pro-title{
+        font-size: 1.3rem;
+    }
+    .pro-labels{
+        width: 93%;
+    }
+    .property-images-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .bg-image{
+        width: 100%;
+    }
+    .consultant-inquiry-form{
+        width: 90%;
+        margin: 0 5px;
+    }
+    .submit-inquiry{
+        width: 40%;
+        display: block;
+        justify-self: center;
+        font-size: 1.1rem;
+        height: 2.5rem;
+    }
+    .overview-container ul{
+        flex-direction: column;
+
+    }
+    .overview-container ul li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .detail{
+        margin-top: 0;
+        font-size: 1.1rem;
+    }
+    .detail-type{
+        font-size: 1.1rem;
+
+    }
+    .features-box{
+        gap: 1rem;
+    }
+    .features-box .feature{
+        justify-content: flex-start !important;
+    }
+}
+
+@media only screen and (max-width: 395px){
+    .nav-button{
+        padding: 8px 13px;
+        font-size: 1rem;
+    }
+    .nav-active{
+        height: 22rem;
+        padding: 4rem 0;
+    }
+}
+
+@media only screen and (max-width: 255px){
+    .newsletter-email{
+        width: 11rem;
     }
 }

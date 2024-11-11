@@ -14,22 +14,23 @@
 <body>
 
     <!-- navbar -->
-    <nav>
+    <nav class="nav">
         <div class="navbar">
-            <div class="logobox">
+            <div class="logobox nav-logobox">
                 <img src="assets/logo.png" alt="logoimg" id="logo">
                 <p class="logotext">Logo</p>
             </div>
             <div class="navigations">
-                <ul class="nav-list">
+                <ul class="nav-list nav-list-inactive">
                     <li class="nav-item"><a href="index.html">Home</a></li>
                     <li class="nav-item"><i class="fa-solid fa-location-dot location"></i><a href="">Explore</a></li>
                     <li class="nav-item"><a href="">About Us</a></li>
-                    <li class="nav-item"><a href="">Contact Us</a></li>
+                    <li class="nav-item"><a href="#inquiry-form" id="contact">Contact Us</a></li>
                     <button class="nav-button"><i class="fa-solid fa-phone phone"></i><a href="">Request a
                             Call</a></button>
-                </ul>
-            </div>
+                        </ul>
+                    </div>
+                    <div class="nav-item toggle-bar"><i class="fa-solid fa-bars "></i></div>
         </div>
     </nav>
 
@@ -233,68 +234,71 @@
     </section>
 
      <!-- footer -->
-<footer>
-    <div class="top-line"></div>
-    
-    <div class="footer-content">
-      <!-- Newsletter Section -->
-      <div class="newsletter">
-        <h2>Newsletter Signup</h2>
-        <form action="">
-        <input type="email" class="newsletter-email" placeholder="Enter your email" />
-        </form>
-      </div>
-      <div class="foot-sep-hr"></div>
-      
-  
-      <div class="footer-sections">
-        <div class="footer-logo">
-            <div class="logobox footerlogobox" bis_skin_checked="1">
-                <img src="assets/logo.png" alt="logoimg" id="logo">
-                <p class="logotext">Logo</p>
-            </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod.</p>
-        </div>
-  
-        <!-- Footer Links -->
-        <div class="footer-links">
-          <div>
-            <h3>Explore</h3>
-            <ul class="nav-items-ul">
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 >Services</h3>
-            <ul class="nav-items-ul">
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Contact</h3>
-            <ul class="nav-items-ul">
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-              <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="foot-sep-hr"></div>
-      <!-- Copyright -->
-      <div class="footer-copyright">
-        <p>© Lorem Ipsum - All rights reserved</p>
-      </div>
-    </div>
-  </footer>
+     <footer>
+        <div class="top-line"></div>
 
+        <div class="footer-content">
+            <!-- Newsletter Section -->
+            <div class="newsletter">
+                <h2>Newsletter Signup</h2>
+                <form action="">
+                    <input type="email" class="newsletter-email" placeholder="Enter your email" />
+                </form>
+            </div>
+            <div class="foot-sep-hr"></div>
+
+
+            <div class="footer-sections">
+                <div class="footer-logo">
+                    <div class="logobox footerlogobox" bis_skin_checked="1">
+                        <img src="assets/logo.png" alt="logoimg" id="logo">
+                        <p class="logotext">Logo</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod.</p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <div>
+                        <h3>Explore</h3>
+                        <ul class="nav-items-ul">
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Services</h3>
+                        <ul class="nav-items-ul">
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Contact</h3>
+                        <ul class="nav-items-ul">
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                            <li class="nav-item-links"><a href="#">Lorem Ipsum</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-sep-hr"></div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright">
+                <p>© Lorem Ipsum - All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
