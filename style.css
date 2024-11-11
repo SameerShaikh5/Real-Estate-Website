@@ -1486,7 +1486,7 @@ ul.feature-list {
         gap: 1rem;
     }
     .features-box .feature{
-        justify-content: flex-start !important;
+        justify-content: flex-start;
     }
 }
 
@@ -1498,6 +1498,24 @@ ul.feature-list {
     .nav-active{
         height: 22rem;
         padding: 4rem 0;
+    }
+    .unit{
+        border-radius: 9px 9px 0 0;
+    }
+    .searchpropertycontainer{
+        border-radius: 7px ;
+    }
+    .head-text{
+        font-size: 1.7rem;
+    }
+    .info-text{
+        width: 13rem;
+    }
+    .num{
+        font-size: 1.5rem;
+    }
+    .feature{
+        font-size: 1.5rem;
     }
 }
 
